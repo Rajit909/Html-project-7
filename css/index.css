@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+}
+
+.nav-item{
+    margin: 20px;
+}
+.active-item{
+    color: #FE5E35;
+}
+.intro-section{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.left-section{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.left-section h3{
+    font-family: sans-serif;
+    margin-bottom: 5px;
+}
+.circle{
+    width: 35px;
+    padding-left: 5px;
+}
+.heading{
+    width: 856px;
+    font-size: 65px;
+    font-family: sans-serif;
+}
+
+.sub-headlines{
+    margin-left: 55px;
+    margin-top: 10px;
+}
+.sub-headline{
+    font-size: 15px;
+    font-weight: normal;
+    padding: 5px;
+}
+.text{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.action-btns{
+    margin-top: 30px;
+}
+.btn{
+    padding: 5px 15px;
+    margin-right: 10px;
+    border: 1px solid white;
+    border-radius: 15px ;
+    color: white;
+    background-color: #FE5E35;
+
+}
+.right-section{
+    position: relative;
+    width:50%;
+}
+.headphone-div{
+    display: flex;
+    justify-content: center;
+
+}
+
+.hdp-img{
+    position: relative;
+    width: 450px;
+    top: 0px;
+    right: 128px;
+    z-index: -1;   
+}
+
+.discount{
+    width: 105px;
+    margin-right: 50px;
+    margin-top: 195px;
+}
+.para{
+    position: absolute;
+    margin-right: 498px;
+    margin-top: 298px;
+}
+.disc{
+    font-size: 14px;
+    margin-left: 2px;
+    font-family:sans-serif;
+    color:white;
+}
+.percent{
+    font-size: 35px;
+    color: white;
+
+}
+.action-btn{
+    position: relative;
+    left: 182px;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border: 1px solid white;
+    border-radius: 15px ;
+    color: white;
+    background-color: #FE5E35;
+}
+
+
+
+

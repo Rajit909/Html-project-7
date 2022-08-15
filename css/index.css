@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: auto;
+}
 nav{
     display: flex;
     width: 100%;
@@ -41,7 +44,7 @@ nav{
     padding-left: 5px;
 }
 .heading{
-    width: 856px;
+    width: 456px;
     font-size: 65px;
     font-family: sans-serif;
 }
@@ -121,6 +124,134 @@ nav{
     background-color: #FE5E35;
 }
 
+/* -------------media query------------------ */
 
+@media screen and (max-width:950px){
+    nav{
+        padding: 5px 10px;
+    }
+    nav>img:nth-child(1){
+        width: 55px;
+    }
+    .nav-items{
+        margin-left: 25px;
+    }
+    nav>.action{
+        width: 50%;
+    }
+    .left-section{
+        margin-top: 20px;
+    }
+    .heading{
+        width: 856px;
+        font-size: 30px;
+    }
+    .sub-headlines{
+        margin-left: 5px;
+    }
+    .sub-headline{
+        font-size: 10px;
+        padding: 2px;
+    }
+    .text{
+        margin-top: 10px;
+        font-size: 9px;
+        width: 300px;
+    }
+    .action-btns{
+        margin-top: 20px;
+    }
+    .btn{
+        padding: 3px 10px;
+        margin-right: 5px;
+        font-size: 8px;
+    }
+    .right-section{
+        width:50%;
+    }
+    .headphone-div{
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    .hdp-img{
+        width: 300px;
+    }
+    
+    .discount{
+        width: 70px;
+        margin-right: 70px;
+        margin-top: 130px;
+    }
+    .para{
+        position: absolute;
+        margin-right: 369px;
+        margin-top: 198px;
+    }
+    .disc{
+        font-size: 8px;
+        margin-left: 2px;
+    }
+    .percent{
+        font-size: 25px;
+    }
+    .action-btn{
+        position: relative;
+        left: -12px;
+        padding: 3px 15px;
+        margin-top: 0px;
+    }
+}
 
+@media screen and (max-width:670px){
+    .right-section{
+        width:70%;
+    }
+}
 
+@media screen and (max-width:550px){
+    .left-section{
+        margin-left: 15px;
+    }
+    .text{
+        margin-top: 10px;
+        font-size: 9px;
+        width: 200px;
+    }
+    .right-section{
+        width:80%;
+    }
+}
+@media screen and (max-width:450px){
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 20px 100px;
+    }
+    .left-section{
+        margin-top: 20px;
+    }
+    .heading{
+        width: 406px;
+        font-size: 40px;
+    }
+  
+    .sub-headline{
+        font-size: 15px;
+    }
+    .text{
+        margin-top: 10px;
+        font-size: 12px;
+        width: 350px;
+    }
+  
+    .btn{
+        padding: 10px 15px;
+        margin-right: 5px;
+        font-size: 10px;
+    }
+    .right-section{
+        margin-left: 40px;
+    }
+}

@@ -27,13 +27,13 @@ nav{
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin-top: 10px;
+    padding: 20px 50px;
 }
 
 .left-section{
     width: 50%;
     margin-top: 100px;
-    margin-left: 40px;
+    left: 40px;
 }
 .left-section h3{
     font-family: sans-serif;
@@ -77,6 +77,7 @@ nav{
 .right-section{
     position: relative;
     width:50%;
+    align-items: center;
 }
 .headphone-div{
     display: flex;
@@ -115,8 +116,8 @@ nav{
 }
 .action-btn{
     position: relative;
-    left: 182px;
-    padding: 5px 20px;
+    left: 242px;
+    padding: 7px 30px;
     margin-top: 20px;
     border: 1px solid white;
     border-radius: 15px ;
@@ -125,133 +126,22 @@ nav{
 }
 
 /* -------------media query------------------ */
-
-@media screen and (max-width:950px){
-    nav{
-        padding: 5px 10px;
+@media screen and (max-width:750px){
+    .nav-item{
+        display: none;
     }
-    nav>img:nth-child(1){
-        width: 55px;
-    }
-    .nav-items{
-        margin-left: 25px;
-    }
-    nav>.action{
-        width: 50%;
-    }
-    .left-section{
-        margin-top: 20px;
-    }
-    .heading{
-        width: 856px;
-        font-size: 30px;
-    }
-    .sub-headlines{
-        margin-left: 5px;
-    }
-    .sub-headline{
-        font-size: 10px;
-        padding: 2px;
-    }
-    .text{
-        margin-top: 10px;
-        font-size: 9px;
-        width: 300px;
-    }
-    .action-btns{
-        margin-top: 20px;
-    }
-    .btn{
-        padding: 3px 10px;
-        margin-right: 5px;
-        font-size: 8px;
-    }
-    .right-section{
-        width:50%;
-    }
-    .headphone-div{
-        display: flex;
-        justify-content: center;
-    
-    }
-    
-    .hdp-img{
-        width: 300px;
-    }
-    
-    .discount{
-        width: 70px;
-        margin-right: 70px;
-        margin-top: 130px;
-    }
-    .para{
-        position: absolute;
-        margin-right: 369px;
-        margin-top: 198px;
-    }
-    .disc{
-        font-size: 8px;
-        margin-left: 2px;
-    }
-    .percent{
-        font-size: 25px;
-    }
-    .action-btn{
-        position: relative;
-        left: -12px;
-        padding: 3px 15px;
-        margin-top: 0px;
-    }
-}
-
-@media screen and (max-width:670px){
-    .right-section{
-        width:70%;
-    }
-}
-
-@media screen and (max-width:550px){
-    .left-section{
-        margin-left: 15px;
-    }
-    .text{
-        margin-top: 10px;
-        font-size: 9px;
-        width: 200px;
-    }
-    .right-section{
-        width:80%;
-    }
-}
-@media screen and (max-width:450px){
     .intro-section{
         display: flex;
         flex-direction: column-reverse;
-        padding: 20px 100px;
+        align-items: center;
     }
     .left-section{
-        margin-top: 20px;
-    }
-    .heading{
-        width: 406px;
-        font-size: 40px;
-    }
-  
-    .sub-headline{
-        font-size: 15px;
-    }
-    .text{
-        margin-top: 10px;
-        font-size: 12px;
-        width: 350px;
-    }
-  
-    .btn{
-        padding: 10px 15px;
-        margin-right: 5px;
-        font-size: 10px;
+        margin-right: 120px;
     }
     .right-section{
-        margin-left: 40px;
+        padding: 10px 50px;
+    }
+    .action-btn{
+        left: 30px;
     }
 }
